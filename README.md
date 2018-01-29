@@ -4,15 +4,19 @@ Aim of this project is to set up a working development environment using dev too
 
 ## Install Virtualbox
 
-`% sudo apt-get install virtualbox`
+`% sudo apt-get install virtualbox` or use:
+
+<https://www.virtualbox.org/wiki/Downloads>
+
 
 ## Install Vagrant
 
-`% sudo apt-get install vagrant`
+`% sudo apt-get install vagrant` or use:
+
+<https://www.vagrantup.com/downloads.html>
 
 ### Check current installed version of Vagrant
 `% vagrant --version`
-
 
 ## Implementation
 
@@ -20,6 +24,7 @@ To implement the virtual machine follow these steps:
 
 * Clone down this repository to a directory of your choice, eg. `project`
 * `% git clone git@github.com:JL337/devops-project.git project`
+* Navigate to the named repo, example: `cd project`
 * Go back to the Host terminal and lauch the vagrant app. `% vagrant up`
 * Then `% vagrant ssh` to open the vagrant appplication.
 * Within the Guest machine, install the relevant dependencies: 

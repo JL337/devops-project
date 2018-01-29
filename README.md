@@ -2,15 +2,15 @@
 
 Aim of this project is to set up a working development environment using dev tools Vagrant and Virtual Box.
 
-##Install Virtualbox
+## Install Virtualbox
 
 `% sudo apt-get install virtualbox`
 
-##Install Vagrant
+## Install Vagrant
 
 `% sudo apt-get install vagrant`
 
-###Check current installed version of Vagrant
+### Check current installed version of Vagrant
 `% vagrant --version`
 
 

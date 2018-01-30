@@ -46,6 +46,8 @@ To implement the virtual machine follow these steps:
 
 * Attempt to connect to the development page on your local browser by typing in the URL : `http://dev.local/`. The start-up page for nginx should appear.
 
+* The project is now ready.
+
 
 
 

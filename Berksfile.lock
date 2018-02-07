@@ -1,0 +1,11 @@
+DEPENDENCIES
+  mongo
+    git: git@github.com:JL337/Mongo-cookbook.git
+    revision: b0c697a21afcfd33f658f68de1b02b209abaa55f
+  node
+    git: git@github.com:JL337/Node-cookbook.git
+    revision: bf8f94a21f2165fc15a047492165624a637f2be7
+
+GRAPH
+  mongo (0.1.0)
+  node (0.1.0)

@@ -1,0 +1,49 @@
+{
+  "name": "develop-server",
+  "normal": {
+    "knife_zero": {
+      "host": "34.244.236.156"
+    },
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "fqdn": "ip-172-31-37-29.eu-west-1.compute.internal",
+    "os": "linux",
+    "os_version": "4.4.0-1049-aws",
+    "hostname": "ip-172-31-37-29",
+    "ipaddress": "172.31.37.29",
+    "roles": [
+
+    ],
+    "recipes": [
+
+    ],
+    "platform": "ubuntu",
+    "platform_version": "16.04",
+    "cloud": {
+      "public_ipv4_addrs": [
+        "34.244.236.156"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.37.29"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-34-244-236-156.eu-west-1.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-37-29.eu-west-1.compute.internal",
+      "public_ipv4": "34.244.236.156",
+      "local_ipv4": "172.31.37.29"
+    },
+    "chef_packages": {
+      "ohai": {
+        "version": "13.7.1",
+        "ohai_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.7.1/lib/ohai"
+      },
+      "chef": {
+        "version": "13.7.16",
+        "chef_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/chef-13.7.16/lib"
+      }
+    }
+  }
+}

@@ -48,8 +48,6 @@ To implement the virtual machine follow these steps:
 
 * The project is now ready.
 
-* Jenkins Webhook Testing
-* First test
 
 
 

@@ -23,13 +23,9 @@
   }],
   "provisioners": [
     {
-      "type": "shell",
-      "inline": ["mkdir /home/ubuntu/app"]
-    },
-    {
       "type": "file",
       "source": "app",
-      "destination": "/home/ubuntu/app"
+      "destination": "/home/ubuntu"
     },
     {
       "type": "chef-solo",
